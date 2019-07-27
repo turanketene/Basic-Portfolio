@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/interlaced.png);
+    font-size: 18px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    
+}
+
+.container {
+    width: 100%;
+    /* max-width: 960px; */
+    clear: both;
+    margin: 0 auto; 
+
+}
+
+h1, p, h3 {
+    margin-bottom: 20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+
+}
+
+h1,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 50px;
+    border-bottom: 3px solid #dddddd;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+
+}
+
+#Main-Header {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border-bottom: 2px solid #cccccc;
+    padding: 20px;
+    overflow: auto;
+    width: 100%;
+
+
+    
+}
+
+#logo {
+    background: #4aaaa5;
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #fff;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+nav {
+    margin-top: 25px;
+    float: right;
+}
+
+nav a{
+    color: #999;
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 1px solid #efefef;
+    text-decoration: none;
+    line-height: 18px;
+
+
+}
+nav a:first-child {
+     border-left: none;
+}
+
+#Main-Section {
+    border: 1px solid #ddd;
+    padding: 25px;
+    background: #fff;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 300px;
+
+    
+}
+
+.auth-image {
+    float: left;
+    margin-top: 10px;
+    margin-right: 25px;
+    height: auto;
+
+}
+
+footer {
+    background: #666666;
+    color: #fff;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    padding: 30px 0;
+    clear: both;
+    width: 100%;
+    margin-top: 100px; 
+    bottom: 0;
+    position: fixed;
+}
+
+#pp {
+    /* width: 280px; */
+    overflow: auto;
+    position: relative;
+    float: left;
+    /* margin: 20px 0 25px; */
+}
+
+
+

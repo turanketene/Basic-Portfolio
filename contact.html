@@ -3,41 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <title>Turan's Portfolio</title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
     </head>
         <body>
             <header id="Main-Header">
-                <a href="index.html" id="logo">Turan Ketene</a>
-            <div>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
-
-            </div>
-                
+                <div class="container">
+                    <a href="index.html" id="logo">Turan Ketene</a>
+                    <nav>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                        
+                    
+                </div>
+                            
             </header>
 
-            <section class="Main-Section">
+            <section id="Main-Section" class="container">
                 <h1>Contact</h1>
-                <form id="contact-form">
-                    Name <br>
-                    <input type="text" name="name" placeholder="John Wick" id="name" required="required"> <br>
-                    Email <br>
-                    <input type="text" name="email" placeholder="example@gmail.com" id="email" required="required"> <br>
-                    Message <br>
-                    <textarea type="text" name="message" id="message"> 
-                    
-                    <input type="submit" value="Submit" id="submit"> <br>
+                <form class="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" placeholder="John Wick" required="required">
+                        </li>
+
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="name">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
 
 
 
-                </form>
+                    </ul>
+                       <input type="submit" name="submit">
+                   </form>
 
 
 
             </section>
+            
             <footer>
-                Copyright 2019 Turan Ketene
+                    Copyright &#169
             </footer>
            
 
